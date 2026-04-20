@@ -6,6 +6,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<TerminosYCondiciones />} />
         <Route path="/eliminar-cuenta" element={<EliminarCuenta />} />
         <Route path="/terminos" element={<TerminosYCondiciones />} />
       </Routes>
