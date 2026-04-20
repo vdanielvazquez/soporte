@@ -18,7 +18,7 @@ export default function TerminosYCondiciones() {
           marginBottom: 20,
         }}
       >
-        <h1 style={{ margin: 0 }}>Términos y Condiciones</h1>
+        <h1 style={{ margin: 0, color: "#666" }}>Términos y Condiciones</h1>
         <p style={{ marginTop: 6, color: "#666" }}>
           Última actualización: 20 de abril de 2026
         </p>
