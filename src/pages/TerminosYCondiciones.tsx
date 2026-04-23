@@ -18,56 +18,59 @@ export default function TerminosYCondiciones() {
           marginBottom: 20,
         }}
       >
-        <h1 style={{ margin: 0, color: "#666" }}>Términos y Condiciones</h1>
+        <h1 style={{ margin: 0, color: "#333" }}>Términos y Condiciones</h1>
         <p style={{ marginTop: 6, color: "#666" }}>
           Última actualización: 20 de abril de 2026
         </p>
       </div>
 
       <Section title="1. Uso de la aplicación">
-        El usuario se compromete a utilizar la aplicación de manera adecuada,
+        El usuario se compromete a utilizar la aplicación de forma responsable,
         respetando las leyes aplicables y evitando cualquier uso indebido del
-        sistema o de sus funcionalidades.
+        sistema, contenido o funcionalidades.
       </Section>
 
-      <Section title="2. Suscripciones">
-        Las suscripciones tienen una duración de 30 días y permiten acceder a
-        beneficios dentro de la aplicación, como promociones y visibilidad de
-        negocios.
+      <Section title="2. Suscripciones y acceso">
+        La aplicación ofrece suscripciones que permiten acceder a beneficios y
+        funcionalidades premium dentro de la plataforma.
         <br />
-        El acceso puede variar según el plan contratado.
+        El acceso a los beneficios depende del plan activo del usuario.
       </Section>
 
-      <Section title="3. Pagos y renovaciones">
-        Los pagos se procesan a través de Apple Store (StoreKit). Las
-        suscripciones pueden renovarse automáticamente según la configuración
-        del usuario.
+      <Section title="3. Compras dentro de la app">
+        Todas las suscripciones se gestionan exclusivamente a través del sistema
+        de compras integradas de Apple (In-App Purchase).
+        <br />
+        Las suscripciones pueden renovarse automáticamente según la
+        configuración del usuario en su cuenta de Apple.
       </Section>
 
-      <Section title="4. Uso físico de la suscripción">
-        La suscripción puede ser utilizada de forma presencial en negocios
-        afiliados mediante la presentación de la cuenta activa dentro de la
-        aplicación.
+      <Section title="4. Uso de beneficios en establecimientos">
+        Los beneficios de la suscripción pueden ser utilizados en negocios
+        afiliados, los cuales pueden variar con el tiempo. Cada negocio es
+        responsable de sus propias promociones y condiciones.
       </Section>
 
-      <Section title="5. Eliminación de cuenta">
-        El usuario puede eliminar su cuenta en cualquier momento. Esta acción es
-        irreversible y elimina toda la información asociada.
+      <Section title="5. Cuentas de usuario">
+        El usuario es responsable de mantener la confidencialidad de su cuenta.
+        La eliminación de la cuenta es permanente e irreversible.
       </Section>
 
-      <Section title="6. Contenido y promociones">
-        Los negocios son responsables del contenido, promociones y beneficios
-        publicados dentro de la plataforma.
+      <Section title="6. Contenido de terceros">
+        Algunos contenidos, promociones o beneficios pueden ser proporcionados
+        por terceros. La aplicación no es responsable de la exactitud o
+        disponibilidad de dichos contenidos.
       </Section>
 
       <Section title="7. Limitación de responsabilidad">
-        No nos hacemos responsables por el uso incorrecto de la aplicación o por
-        problemas derivados de terceros o de los establecimientos afiliados.
+        La aplicación no se hace responsable por daños derivados del uso
+        indebido de la plataforma o de servicios proporcionados por terceros.
       </Section>
 
       <Section title="8. Cambios en los términos">
         Nos reservamos el derecho de modificar estos términos en cualquier
-        momento. Se recomienda revisarlos periódicamente.
+        momento. Los cambios serán publicados dentro de la aplicación o sitio
+        web.
       </Section>
 
       <div
@@ -86,7 +89,6 @@ export default function TerminosYCondiciones() {
   );
 }
 
-// componente interno bonito
 function Section({
   title,
   children,
