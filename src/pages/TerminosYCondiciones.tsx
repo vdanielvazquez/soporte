@@ -57,9 +57,9 @@ export default function SoporteYTerminos() {
           marginBottom: 25,
         }}
       >
-        <h1 style={{ margin: 0 }}>Soporte</h1>
+        <h1 style={{ margin: 0, color: "#1a1a1a" }}>Soporte</h1>
 
-        <p>📧 soporte@tudominio.com</p>
+        <p>📧 soporte@deskuenta.com</p>
         <p>Tiempo de respuesta: 24 - 48 horas</p>
 
         <div
@@ -128,7 +128,7 @@ export default function SoporteYTerminos() {
           marginBottom: 20,
         }}
       >
-        <h1>Términos y Condiciones</h1>
+        <h1 style={{ color: "#1a1a1a" }}>Términos y Condiciones</h1>
         <p>Última actualización: 20 de abril de 2026</p>
       </div>
 
