@@ -128,30 +128,63 @@ export default function SoporteYTerminos() {
           marginBottom: 20,
         }}
       >
-        <h1 style={{ color: "#1a1a1a" }}>Términos y Condiciones</h1>
-        <p>Última actualización: 20 de abril de 2026</p>
+        <h1 style={{ margin: 0, color: "#000" }}>Términos y Condiciones</h1>
+        <p style={{ marginTop: 6, color: "#666" }}>
+          Última actualización: 20 de abril de 2026
+        </p>
       </div>
 
       <Section title="1. Uso de la aplicación">
-        El usuario se compromete a utilizar la aplicación de forma responsable.
+        El usuario se compromete a utilizar la aplicación de manera adecuada,
+        respetando las leyes aplicables y evitando cualquier uso indebido del
+        sistema.
       </Section>
 
       <Section title="2. Suscripciones">
-        Las suscripciones permiten acceder a diferentes niveles de contenido.
+        Las suscripciones tienen una duración de 30 días y permiten acceder a
+        beneficios dentro de la aplicación. El acceso depende del plan
+        contratado.
       </Section>
 
-      <Section title="3. Compras dentro de la app">
-        Todas las compras se realizan exclusivamente mediante Apple In-App
-        Purchase.
+      <Section title="3. Pagos y renovaciones">
+        Todas las suscripciones se procesan exclusivamente mediante Apple In-App
+        Purchase. No existen métodos de pago externos.
       </Section>
 
-      <Section title="4. Contenido">
-        Los negocios y promociones dependen del plan activo del usuario.
+      <Section title="4. Uso de beneficios">
+        Los beneficios pueden variar según el plan activo del usuario.
       </Section>
 
-      <Section title="5. Cambios">
-        Nos reservamos el derecho de actualizar estos términos.
+      <Section title="5. Eliminación de cuenta">
+        El usuario puede eliminar su cuenta en cualquier momento. Esta acción es
+        irreversible.
       </Section>
+
+      <Section title="6. Contenido y promociones">
+        Los negocios son responsables del contenido publicado en la plataforma.
+      </Section>
+
+      <Section title="7. Limitación de responsabilidad">
+        No nos hacemos responsables por el uso de servicios de terceros.
+      </Section>
+
+      <Section title="8. Cambios en los términos">
+        Nos reservamos el derecho de modificar estos términos en cualquier
+        momento.
+      </Section>
+
+      <div
+        style={{
+          marginTop: 30,
+          padding: 15,
+          background: "#fff3cd",
+          borderRadius: 10,
+          fontSize: 14,
+        }}
+      >
+        ⚠️ El uso continuo de la aplicación implica la aceptación de estos
+        términos.
+      </div>
     </div>
   );
 }
