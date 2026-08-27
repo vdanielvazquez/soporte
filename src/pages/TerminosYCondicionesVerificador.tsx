@@ -4,7 +4,7 @@ import { useState, type ReactNode, type CSSProperties } from "react";
 // COMPONENTE PRINCIPAL
 // =====================================================
 
-export default function TerminosYCondocionesVerificador() {
+export default function TerminosYCondicionesVerificador() {
   const [nombre, setNombre] = useState("");
   const [correo, setCorreo] = useState("");
   const [mensaje, setMensaje] = useState("");
