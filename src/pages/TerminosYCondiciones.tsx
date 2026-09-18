@@ -51,13 +51,13 @@ export default function SoporteYTerminos() {
       {/* ===================== SOPORTE ===================== */}
       <div
         style={{
-          background: "#eef3ff",
+          background: "#FCE4EC",
           padding: 20,
           borderRadius: 12,
           marginBottom: 25,
         }}
       >
-        <h1 style={{ margin: 0, color: "#1a1a1a" }}>Soporte</h1>
+        <h1 style={{ margin: 0, color: "#C2185B" }}>Soporte</h1>
 
         <p>📧 soporte@deskuenta.com</p>
         <p>Tiempo de respuesta: 24 - 48 horas</p>
@@ -68,7 +68,7 @@ export default function SoporteYTerminos() {
             padding: 15,
             background: "#fff",
             borderRadius: 10,
-            border: "1px solid #ddd",
+            border: "1px solid #F8BBD0",
           }}
         >
           <h3>Enviar mensaje</h3>
@@ -101,7 +101,7 @@ export default function SoporteYTerminos() {
               marginTop: 10,
               padding: 10,
               width: "100%",
-              background: loading ? "#999" : "#4a6cf7",
+              background: loading ? "#999" : "#C2185B",
               color: "#fff",
               border: "none",
               borderRadius: 8,
@@ -122,13 +122,13 @@ export default function SoporteYTerminos() {
       {/* ===================== TÉRMINOS ===================== */}
       <div
         style={{
-          background: "#f5f7ff",
+          background: "#FCE4EC",
           padding: 20,
           borderRadius: 12,
           marginBottom: 20,
         }}
       >
-        <h1 style={{ margin: 0, color: "#000" }}>Términos y Condiciones</h1>
+        <h1 style={{ margin: 0, color: "#C2185B" }}>Términos y Condiciones</h1>
         <p style={{ marginTop: 6, color: "#666" }}>
           Última actualización: 20 de abril de 2026
         </p>
@@ -177,7 +177,7 @@ export default function SoporteYTerminos() {
         style={{
           marginTop: 30,
           padding: 15,
-          background: "#fff3cd",
+          background: "#FCE4EC",
           borderRadius: 10,
           fontSize: 14,
         }}
@@ -195,7 +195,7 @@ const inputStyle = {
   padding: 10,
   marginTop: 10,
   borderRadius: 8,
-  border: "1px solid #ccc",
+  border: "1px solid #F8BBD0",
 };
 
 function Section({ title, children }: any) {
@@ -205,11 +205,11 @@ function Section({ title, children }: any) {
         marginBottom: 18,
         padding: 16,
         borderRadius: 10,
-        background: "#fafafa",
-        border: "1px solid #eee",
+        background: "#FFF8FB",
+        border: "1px solid #F8BBD0",
       }}
     >
-      <h3>{title}</h3>
+      <h3 style={{ color: "#C2185B" }}>{title}</h3>
       <p>{children}</p>
     </div>
   );

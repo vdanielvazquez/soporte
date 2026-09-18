@@ -399,9 +399,9 @@ export default function TerminosYCondicionesVerificador() {
         style={{
           marginTop: 30,
           padding: 15,
-          background: "#FFF3CD",
+          background: "#FCE4EC",
           borderRadius: 10,
-          border: "1px solid #FFE69C",
+          border: "1px solid #F8BBD0",
           fontSize: 14,
         }}
       >
